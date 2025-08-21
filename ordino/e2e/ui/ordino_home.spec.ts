@@ -19,79 +19,10 @@ test.describe('OrangeHRM Home Dashboard - Test Suite', () => {
         await homePage.step_profileOption("Logout");
     });
 
-    //-------------------
+    //---------------
 
- test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
-        await loginPage.goto();
-        await loginPage.step_enterUsername("Admin");
-        await loginPage.step_enterPassword("admin123");
-        await loginPage.step_clickLogin();
-        await sidePanel.step_searchOption();        
-        await homePage.step_profileOption("Logout");
-    }); test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
         await loginPage.goto();
         await loginPage.step_enterUsername("Admin");
         await loginPage.step_enterPassword("admin123");
@@ -99,6 +30,128 @@ test.describe('OrangeHRM Home Dashboard - Test Suite', () => {
         await sidePanel.step_searchOption();        
         await homePage.step_profileOption("Logout");
     });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+
+     test("Test - Verify Given Menu Search Selection", async ({ loginPage, homePage, sidePanel }) => {
+        await loginPage.goto();
+        await loginPage.step_enterUsername("Admin");
+        await loginPage.step_enterPassword("admin123");
+        await loginPage.step_clickLogin();
+        await sidePanel.step_searchOption();        
+        await homePage.step_profileOption("Logout");
+    });
+    
+
+    
+    
+
 
 
 
