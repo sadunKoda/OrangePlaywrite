@@ -13,4 +13,4 @@ jobs:
      image: node:20-alpine
    steps:
     - name: Ordino Tests
-      uses: ORDINO-AI-LLC/github-action@v3
+      uses: ORDINO-AI-LLC/github-action@v4
