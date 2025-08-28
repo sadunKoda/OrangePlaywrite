@@ -12,10 +12,12 @@ jobs:
    container:
      image: node:20-alpine
    steps:
+    - name: Install bash
+      run: apk add --no-cache bash  
     - name: Checkout code
       uses: actions/checkout@v4
     - name: Ordino Tests
-      uses: ORDINO-AI-LLC/github-action@v5
+      uses: ORDINO-AI-LLC/github-action@v4
       with:
         test-framework: 'playwright'
         ordino-key: ${{ secrets.ORDINO_KEY }}
