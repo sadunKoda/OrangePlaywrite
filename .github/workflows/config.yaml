@@ -15,9 +15,7 @@ jobs:
       run: apk add --no-cache bash  
     - name: Checkout code
       uses: actions/checkout@v4
-    - name: Ordino Tests
-      uses: ORDINO-AI-LLC/github-action@v4
+    - name: Run Ordino Tests
+      uses: ORDINO-AI-LLC/github-action@v6
       with:
-        test-framework: 'playwright'
-        ordino-key: ${{ secrets.ORDINO_KEY }}
-        project-id: ${{ secrets.PROJECT_ID }}
+        test-framework: 'cypress'
