@@ -1,21 +1,23 @@
 name: Ordino Tests
-
 on:
   push:
     branches: [main, develop]
   pull_request:
     branches: [main, develop]
+
 jobs:
-  build:
-   runs-on: ubuntu-latest
-   container:
-     image: node:20-alpine
-   steps:
-    - name: Install bash
-      run: apk add --no-cache bash  
-    - name: Checkout code
-      uses: actions/checkout@v4
-    - name: Run Ordino Tests
-      uses: ORDINO-AI-LLC/github-action@v6
-      with:
-        test-framework: 'cypress'
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Run Ordino Tests
+        uses: ORDINO-AI-LLC/github-action@v6
+        with:
+          test-framework: 'playwright'
