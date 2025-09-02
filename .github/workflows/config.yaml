@@ -18,6 +18,6 @@ jobs:
           node-version: '20'
       
       - name: Run Ordino Tests
-        uses: ORDINO-AI-LLC/github-action@v6
+        uses: ORDINO-AI-LLC/github-action@v8
         with:
           test-framework: 'playwright'
